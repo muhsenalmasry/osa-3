@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.button {
+  background-color: white;
+  border-radius : 4px;
+  color: black;
+}
+
+.button:hover{
+  background-color:dodgerblue;
+  color: black;
+}
+
+.success {
+background-color: grey;
+color: green;
+border-color: green;
+border-radius: 2px;
+border-style: solid;
+padding: 4px;
+}
+
+.fail {
+background-color: grey;
+color: red;
+border-color: red;
+border-radius: 2px;
+border-style: solid;
+padding: 4px;
+}
